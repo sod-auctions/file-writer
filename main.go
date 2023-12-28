@@ -21,6 +21,7 @@ type Record struct {
 	ItemID         int32 `parquet:"name=itemId, type=INT32"`
 	Bid            int32 `parquet:"name=bid, type=INT32"`
 	Buyout         int32 `parquet:"name=buyout, type=INT32"`
+	BuyoutEach     int32 `parquet:"name=buyoutEach, type=INT32"`
 	Quantity       int32 `parquet:"name=quantity, type=INT32"`
 	TimeLeft       int32 `parquet:"name=timeLeft, type=INT32"`
 }
